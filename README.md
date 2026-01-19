@@ -112,6 +112,9 @@ This project focuses on:
 ## 💾 Model Saving
 
 The final trained model is saved using `joblib`:
+```python
+joblib.dump(rf, "delhi_aqi_rf_final_model.pkl")
+```
 
 ## 🧪 Sample Prediction
 
@@ -133,5 +136,3 @@ Predicted AQI values are very close to actual values, usually within a few AQI p
 
 Anish Chatterjee
 B.Tech CSE | AIML Enthusiast
-```python
-joblib.dump(rf, "delhi_aqi_rf_final_model.pkl")
